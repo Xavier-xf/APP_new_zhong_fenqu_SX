@@ -1,0 +1,33 @@
+include_directories(
+	.
+	${CMAKE_CURRENT_SOURCE_DIR}/../include/jpeg/
+)
+
+add_library(jpeg STATIC
+	jdatasrc.c
+	jerror.c
+	jdapimin.c
+	jdapistd.c
+	jdmarker.c
+	jcomapi.c
+	jutils.c
+	jmemmgr.c
+	jdinput.c
+	jmemnobs.c
+	jdmaster.c
+	jdmainct.c
+	jdmerge.c
+	jdhuff.c
+	jdpostct.c
+	jdsample.c
+	jdcolor.c
+	jdcoefct.c
+	jdarith.c
+	jaricom.c
+	jddctmgr.c
+	jidctfst.c
+	jidctint.c
+	jidctflt.c
+	jquant2.c
+	jquant1.c
+)

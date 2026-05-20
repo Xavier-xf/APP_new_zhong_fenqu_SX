@@ -1,0 +1,2 @@
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ar qc libxls.a CMakeFiles/xls.dir/endian.c.o CMakeFiles/xls.dir/ole.c.o CMakeFiles/xls.dir/xls.c.o CMakeFiles/xls.dir/xlstool.c.o
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ranlib libxls.a

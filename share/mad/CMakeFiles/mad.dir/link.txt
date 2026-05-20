@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmad.a  CMakeFiles/mad.dir/test.c.o
+/usr/bin/ranlib libmad.a

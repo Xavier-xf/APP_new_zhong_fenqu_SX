@@ -1,0 +1,32 @@
+share/lvgl/CMakeFiles/lvgl.dir/src/lv_misc/lv_mem.c.o: \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/src/lv_misc/lv_mem.c \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_mem.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_conf_internal.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdint.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdint.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/features.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wchar.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_conf_kconfig.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_conf.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stddef.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_log.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_types.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_math.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_gc.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdbool.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_mem.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_ll.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_task.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_img_cache.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_img_decoder.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_img_buf.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_color.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_math.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_area.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/string.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_fs.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_draw_mask.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/lvgl/../include/lvgl/lv_debug.h

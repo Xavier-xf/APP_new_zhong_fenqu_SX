@@ -1,0 +1,2 @@
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ar qc libsamplerate.a CMakeFiles/samplerate.dir/samplerate.c.o CMakeFiles/samplerate.dir/src_linear.c.o CMakeFiles/samplerate.dir/src_sinc.c.o CMakeFiles/samplerate.dir/src_zoh.c.o CMakeFiles/samplerate.dir/samplerate_api.c.o
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ranlib libsamplerate.a

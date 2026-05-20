@@ -1,0 +1,488 @@
+The system is: Linux - 5.4.0-150-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/3.25.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/3.25.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e002e/fast && make[1]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs'
+/usr/bin/make  -f CMakeFiles/cmTC_e002e.dir/build.make CMakeFiles/cmTC_e002e.dir/build
+make[2]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs'
+Building C object CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc   -v -o CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc.br_real
+Target: arm-anykav500-linux-uclibcgnueabi
+Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp
+Thread model: posix
+gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/cc1 -quiet -v -iprefix /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/ -isysroot /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm926ej-s -mfloat-abi=soft -mabi=aapcs-linux -marm -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccnkb5jv.s
+GNU C (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3
+warning: MPC header version 1.0.3 differs from library version 1.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include"
+ignoring nonexistent directory "/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/local/include"
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed"
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include
+End of search list.
+GNU C (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3
+warning: MPC header version 1.0.3 differs from library version 1.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 463ade7ebb3ee485715e66ac2088cef0
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/as -v -mcpu=arm926ej-s -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o /tmp/ccnkb5jv.s
+GNU assembler version 2.29.1 (arm-anykav500-linux-uclibcgnueabi) using BFD version (GNU Binutils) 2.29.1
+COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+Linking C executable cmTC_e002e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e002e.dir/link.txt --verbose=1
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc  -v CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -o cmTC_e002e 
+Using built-in specs.
+COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc.br_real
+COLLECT_LTO_WRAPPER=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper
+Target: arm-anykav500-linux-uclibcgnueabi
+Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp
+Thread model: posix
+gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) 
+COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e002e' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/collect2 -plugin /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/liblto_plugin.so -plugin-opt=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvizqey.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_e002e /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4 -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o
+make[2]: Leaving directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs'
+make[1]: Leaving directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+  implicit include dirs: [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-anykav500-linux-uclibcgnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_e002e/fast && make[1]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e002e.dir/build.make CMakeFiles/cmTC_e002e.dir/build]
+  ignore line: [make[2]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-QcGyFs']
+  ignore line: [Building C object CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc   -v -o CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc.br_real]
+  ignore line: [Target: arm-anykav500-linux-uclibcgnueabi]
+  ignore line: [Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/cc1 -quiet -v -iprefix /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/ -isysroot /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm926ej-s -mfloat-abi=soft -mabi=aapcs-linux -marm -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccnkb5jv.s]
+  ignore line: [GNU C (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3]
+  ignore line: [warning: MPC header version 1.0.3 differs from library version 1.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include"]
+  ignore line: [ignoring nonexistent directory "/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed"]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3]
+  ignore line: [warning: MPC header version 1.0.3 differs from library version 1.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 463ade7ebb3ee485715e66ac2088cef0]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/as -v -mcpu=arm926ej-s -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o /tmp/ccnkb5jv.s]
+  ignore line: [GNU assembler version 2.29.1 (arm-anykav500-linux-uclibcgnueabi) using BFD version (GNU Binutils) 2.29.1]
+  ignore line: [COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  ignore line: [Linking C executable cmTC_e002e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e002e.dir/link.txt --verbose=1]
+  ignore line: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc  -v CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -o cmTC_e002e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper]
+  ignore line: [Target: arm-anykav500-linux-uclibcgnueabi]
+  ignore line: [Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) ]
+  ignore line: [COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e002e' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  link line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/collect2 -plugin /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/liblto_plugin.so -plugin-opt=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvizqey.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_e002e /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4 -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccvizqey.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e002e] ==> ignore
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_e002e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o]
+  collapse obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o]
+  collapse obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/lib]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/lib;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d07d1/fast && make[1]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4'
+/usr/bin/make  -f CMakeFiles/cmTC_d07d1.dir/build.make CMakeFiles/cmTC_d07d1.dir/build
+make[2]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4'
+Building CXX object CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++   -v -o CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++.br_real
+Target: arm-anykav500-linux-uclibcgnueabi
+Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp
+Thread model: posix
+gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/cc1plus -quiet -v -iprefix /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/ -isysroot /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm926ej-s -mfloat-abi=soft -mabi=aapcs-linux -marm -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccMEgSWA.s
+GNU C++ (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3
+warning: MPC header version 1.0.3 differs from library version 1.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4"
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi"
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward"
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include"
+ignoring nonexistent directory "/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/local/include"
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed"
+ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include
+End of search list.
+GNU C++ (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 3.1.6, MPC version 1.0.3
+warning: MPC header version 1.0.3 differs from library version 1.1.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: fb0f617495bcd9834e2a22ce4c71f415
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/as -v -mcpu=arm926ej-s -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMEgSWA.s
+GNU assembler version 2.29.1 (arm-anykav500-linux-uclibcgnueabi) using BFD version (GNU Binutils) 2.29.1
+COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+Linking CXX executable cmTC_d07d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d07d1.dir/link.txt --verbose=1
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++  -v CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d07d1 
+Using built-in specs.
+COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++.br_real
+COLLECT_LTO_WRAPPER=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper
+Target: arm-anykav500-linux-uclibcgnueabi
+Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp
+Thread model: posix
+gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) 
+COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/
+LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d07d1' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/collect2 -plugin /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/liblto_plugin.so -plugin-opt=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/cclu05DD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_d07d1 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4 -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o
+make[2]: Leaving directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4'
+make[1]: Leaving directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include]
+    add: [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include]
+  collapse include dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+  implicit include dirs: [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/include;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-anykav500-linux-uclibcgnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_d07d1/fast && make[1]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4']
+  ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d07d1.dir/build.make CMakeFiles/cmTC_d07d1.dir/build]
+  ignore line: [make[2]: Entering directory '/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-gkafB4']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++   -v -o CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++.br_real]
+  ignore line: [Target: arm-anykav500-linux-uclibcgnueabi]
+  ignore line: [Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/cc1plus -quiet -v -iprefix /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/ -isysroot /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm926ej-s -mfloat-abi=soft -mabi=aapcs-linux -marm -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccMEgSWA.s]
+  ignore line: [GNU C++ (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3]
+  ignore line: [warning: MPC header version 1.0.3 differs from library version 1.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4"]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi"]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward"]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include"]
+  ignore line: [ignoring nonexistent directory "/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed"]
+  ignore line: [ignoring duplicate directory "/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/../../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/arm-anykav500-linux-uclibcgnueabi]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include/c++/4.9.4/backward]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include-fixed]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/include]
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (Buildroot 2018.02.7_V1.0.03-g9ff3371) version 4.9.4 (arm-anykav500-linux-uclibcgnueabi)]
+  ignore line: [	compiled by GNU C version 5.4.0 20160609  GMP version 6.1.2  MPFR version 3.1.6  MPC version 1.0.3]
+  ignore line: [warning: MPC header version 1.0.3 differs from library version 1.1.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: fb0f617495bcd9834e2a22ce4c71f415]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  ignore line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/as -v -mcpu=arm926ej-s -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccMEgSWA.s]
+  ignore line: [GNU assembler version 2.29.1 (arm-anykav500-linux-uclibcgnueabi) using BFD version (GNU Binutils) 2.29.1]
+  ignore line: [COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  ignore line: [Linking CXX executable cmTC_d07d1]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d07d1.dir/link.txt --verbose=1]
+  ignore line: [/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++  -v CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d07d1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper]
+  ignore line: [Target: arm-anykav500-linux-uclibcgnueabi]
+  ignore line: [Configured with: ./configure --prefix=/home/chehongfeng/toolchain_release --sysconfdir=/home/chehongfeng/toolchain_release/etc --enable-static --target=arm-anykav500-linux-uclibcgnueabi --with-sysroot=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-multilib --with-gmp=/home/chehongfeng/toolchain_release --with-mpc=/home/chehongfeng/toolchain_release --with-mpfr=/home/chehongfeng/toolchain_release --with-pkgversion='Buildroot 2018.02.7_V1.0.03-g9ff3371' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/chehongfeng/toolchain_release/arm-anykav500-linux-uclibcgnueabi/bin --enable-shared --disable-libgomp --enable-libssp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.4 (Buildroot 2018.02.7_V1.0.03-g9ff3371) ]
+  ignore line: [COMPILER_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/:/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib/:/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d07d1' '-shared-libgcc' '-mcpu=arm926ej-s' '-mfloat-abi=soft' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  link line: [ /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/collect2 -plugin /opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/liblto_plugin.so -plugin-opt=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper -plugin-opt=-fresolution=/tmp/cclu05DD.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-uClibc.so.0 -X -m armelf_linux_eabi -o cmTC_d07d1 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4 -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc -L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib -L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/arm-anykav500-linux-uclibcgnueabi/bin/../libexec/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclu05DD.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d07d1] ==> ignore
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib]
+    arg [-L/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib] ==> dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_d07d1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o]
+    arg [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o] ==> obj [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o]
+  collapse obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o]
+  collapse obj [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/bin/../lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/../../../../arm-anykav500-linux-uclibcgnueabi/lib] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/lib]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib]
+  collapse library dir [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib] ==> [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crt1.o;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crti.o;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtbegin.o;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/crtend.o;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4;/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/lib;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/lib;/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-wqGPGG
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7c7a1/fast && make[1]: 进入目录“/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-wqGPGG”
+/usr/bin/make  -f CMakeFiles/cmTC_7c7a1.dir/build.make CMakeFiles/cmTC_7c7a1.dir/build
+make[2]: 进入目录“/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-wqGPGG”
+Building CXX object CMakeFiles/cmTC_7c7a1.dir/feature_tests.cxx.o
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++   -std=c++14 -o CMakeFiles/cmTC_7c7a1.dir/feature_tests.cxx.o -c /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-wqGPGG/feature_tests.cxx
+Linking CXX executable cmTC_7c7a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c7a1.dir/link.txt --verbose=1
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-g++ CMakeFiles/cmTC_7c7a1.dir/feature_tests.cxx.o -o cmTC_7c7a1 
+make[2]: 离开目录“/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-wqGPGG”
+make[1]: 离开目录“/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles/CMakeScratch/TryCompile-wqGPGG”
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

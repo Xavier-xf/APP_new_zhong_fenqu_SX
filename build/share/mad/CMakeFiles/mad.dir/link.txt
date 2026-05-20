@@ -1,0 +1,2 @@
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ar qc libmad.a CMakeFiles/mad.dir/bit.c.o CMakeFiles/mad.dir/decoder.c.o CMakeFiles/mad.dir/frame.c.o CMakeFiles/mad.dir/huffman.c.o CMakeFiles/mad.dir/layer12.c.o CMakeFiles/mad.dir/layer3.c.o CMakeFiles/mad.dir/stream.c.o CMakeFiles/mad.dir/synth.c.o CMakeFiles/mad.dir/timer.c.o
+/opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ranlib libmad.a

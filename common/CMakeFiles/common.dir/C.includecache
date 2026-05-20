@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leo/CDV1004QT/project/common/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c
+
+/home/leo/CDV1004QT/project/common/CMakeFiles/feature_tests.c
+
+/home/leo/CDV1004QT/project/common/lv_msg_event.c
+lv_msg_event.h
+/home/leo/CDV1004QT/project/common/lv_msg_event.h
+unistd.h
+-
+sys/time.h
+-
+pthread.h
+-
+mqueue.h
+-
+stdio.h
+-
+ctype.h
+-
+
+/home/leo/CDV1004QT/project/common/lv_msg_event.h
+stdbool.h
+-
+stdio.h
+-
+lvgl.h
+/home/leo/CDV1004QT/project/common/lvgl.h
+

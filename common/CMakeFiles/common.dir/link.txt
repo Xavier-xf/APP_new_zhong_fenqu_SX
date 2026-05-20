@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a  CMakeFiles/common.dir/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.o CMakeFiles/common.dir/CMakeFiles/feature_tests.o CMakeFiles/common.dir/lv_msg_event.o
+/usr/bin/ranlib libcommon.a
