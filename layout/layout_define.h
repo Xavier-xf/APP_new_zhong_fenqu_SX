@@ -60,7 +60,7 @@
 #include "sat_ipcamera.h"
 #include "user_onvif.h"
 
-#define SYSTEM_VERSION "V5.0.27new"//"V0.0.3ME"//"V5.0.18new"
+#define SYSTEM_VERSION "V5.0.49"//"V0.0.3ME"//"V5.0.18new"
 
 
 DEFINE_LAYOUT(logo);

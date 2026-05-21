@@ -19,6 +19,7 @@ ui:
 	cp -f build/CDV1004QT.BIN 	upgrade/app
 	cp -f res/rom.bin 			upgrade/app
 	cp -f res/sat_leo.ttf 		upgrade/app
+	cp -f res/language.xls 		upgrade/app
 	cp -rf res/rings 			upgrade/app
 	cp -rf res/wallpaper 		upgrade/app
 	cd upgrade/;./make_image.sh

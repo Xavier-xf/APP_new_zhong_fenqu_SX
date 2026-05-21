@@ -1,20 +1,26 @@
 #include "layout_define.h"
 
 #define SETTING_LANGUAGE_OBJ_ID_PARENT 0X10
+#define SETTING_LANGUAGE_BTN_OBJ_ID_BASE 0X100
 
-#define SETTING_LANGUAGE_OBJ_ID_1 LANGUAGE_ID_ENGLISH
-// #define SETTING_LANGUAGE_OBJ_ID_2 LANGUAGE_ID_HANYU
-// #define SETTING_LANGUAGE_OBJ_ID_3 LANGUAGE_ID_ELUOSI
-// #define SETTING_LANGUAGE_OBJ_ID_4 LANGUAGE_ID_XIBANYA
-// #define SETTING_LANGUAGE_OBJ_ID_5 LANGUAGE_ID_CHINESE
-// #define SETTING_LANGUAGE_OBJ_ID_6 LANGUAGE_ID_TUERQI
-// #define SETTING_LANGUAGE_OBJ_ID_7 LANGUAGE_ID_BOLAN
-// #define SETTING_LANGUAGE_OBJ_ID_8 LANGUAGE_ID_JIEKE
-#define SETTING_LANGUAGE_OBJ_ID_2 LANGUAGE_ID_ALABOYU
-// #define SETTING_LANGUAGE_OBJ_ID_10 LANGUAGE_ID_PUTAOYA
-// #define SETTING_LANGUAGE_OBJ_ID_11 LANGUAGE_ID_FAYU
-// #define SETTING_LANGUAGE_OBJ_ID_12 LANGUAGE_ID_DEYU
+static const char *setting_language_name_get(LANGUAGE_ID language)
+{
+	if (is_language_xls_inited())
+	{
+		const char *name = lang_xls_language_name_get(language_to_xls_col(language));
+		if (name != NULL && name[0] != '\0')
+		{
+			return name;
+		}
+	}
 
+	return layout_setting_etc_string_get_form_language(SETTING_ETC_LANG_ID_LANGUAGE_SUB, language);
+}
+
+static int setting_language_obj_id_get(int language)
+{
+	return SETTING_LANGUAGE_BTN_OBJ_ID_BASE + language;
+}
 
 static void setting_language_cancel_btn_up(lv_obj_t *obj)
 {
@@ -33,25 +39,43 @@ static lv_obj_t *setting_language_list_create(void)
 
 static void setting_language_btn_up(lv_obj_t *obj)
 {
-	user_data_get()->etc.language = obj->obj_id;
-	user_data_save();
-	language_id_set(obj->obj_id);
+	int language = obj->obj_id - SETTING_LANGUAGE_BTN_OBJ_ID_BASE;
+	int old_language = user_data_get()->etc.language;
+	lv_obj_t *old_obj;
 
-	goto_layout(pLAYOUT(setting_language));
+	if (language < 0 || language >= LANGUAGE_ID_TOTAL)
+	{
+		return;
+	}
+
+	user_data_get()->etc.language = language;
+	user_data_save();
+	language_id_set(language);
+
+	old_obj = lv_obj_get_child_form_id(obj->parent, setting_language_obj_id_get(old_language));
+	if (old_obj != NULL)
+	{
+		lv_checkbox_set_checked(old_obj, false);
+	}
+	lv_checkbox_set_checked(obj, true);
 }
 
-static void setting_language_btn_create(lv_obj_t *parent, int language)
+static void setting_language_btn_create(lv_obj_t *parent, int language, int index)
 {
 	static obj_click_data click_data = obj_click_data_up_create(setting_language_btn_up);
 
-	lv_obj_t *obj = setting_sub_btn_base_create(parent, 0, 88 * language, 934, 88,
-						    layout_setting_etc_string_get_form_language(SETTING_ETC_LANG_ID_LANGUAGE_SUB, language),
+	lv_obj_t *obj = setting_sub_btn_base_create(parent, 0, 88 * index, 934, 88,
+						    setting_language_name_get(language),
 						    &click_data,
 						    user_data_get()->etc.language == language ? true : false,
 						    2);
+	if (obj == NULL)
+	{
+		printf("create setting language row failed \n");
+		return;
+	}
 
-	lv_obj_set_id(obj, language);
-
+	lv_obj_set_id(obj, setting_language_obj_id_get(language));
 	lv_page_glue_obj(obj, true);
 }
 
@@ -62,19 +86,12 @@ static void LAYOUT_ENTER_FUNC(setting_language)
 	setting_head_label_create(layout_setting_record_string_get(SETTING_RECORD_LANG_ID_SETTING));
 
 	lv_obj_t *list = setting_language_list_create();
+	int language;
 
-	setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_1);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_2);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_3);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_4);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_5);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_6);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_7);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_8);
-	setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_2);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_10);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_11);
-	// setting_language_btn_create(list, SETTING_LANGUAGE_OBJ_ID_12);
+	for (language = 0; language < LANGUAGE_ID_TOTAL; language++)
+	{
+		setting_language_btn_create(list, language, language);
+	}
 
 }
 

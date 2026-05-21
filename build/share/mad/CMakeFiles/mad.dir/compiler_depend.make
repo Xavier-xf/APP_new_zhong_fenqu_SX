@@ -219,118 +219,118 @@ share/mad/CMakeFiles/mad.dir/timer.c.o: /home/xiaoxiao/workspace/meiou/APP_new_z
   /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/timer.h
 
 
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/timer.c:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/synth.c:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/stream.c:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/rq_table.dat:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/layer3.c:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/qc_table.dat:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/sf_table.dat:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/huffman.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/wchar.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/huffman.c:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdio.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/layer3.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdarg.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/layer12.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h:
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/D.dat:
 
 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/string.h:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitstatus.h:
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/layer12.c:
 
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/global.h:
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/huffman.h:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stddef.h:
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/timer.c:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/endian.h:
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/stream.c:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/features.h:
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/huffman.c:
 
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/D.dat:
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/assert.h:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h:
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/bit.c:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-16.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/bit.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitflags.h:
+/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdarg.h:
 
 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wchar.h:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h:
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/synth.c:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdio.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/frame.c:
 
 /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/synth.h:
 
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h:
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/timer.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/fixed.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/sf_table.dat:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/layer12.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/frame.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/stream.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/layer3.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitflags.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-16.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/features.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/qc_table.dat:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/decoder.c:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/bit.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/layer3.c:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/wchar.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/global.h:
 
 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h:
 
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/bit.c:
+
 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitstatus.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/decoder.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/endian.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h:
+
+/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/rq_table.dat:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/alloca.h:
+
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h:
 
 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/time.h:
 
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/layer12.c:
+/opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stddef.h:
 
 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h:
 
 /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/imdct_s.dat:
 
+/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h:
+
 /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/stream.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/assert.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/alloca.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/fixed.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/timer.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/frame.h:
-
-/opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/mad/decoder.h:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/decoder.c:
-
-/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/mad/frame.c:

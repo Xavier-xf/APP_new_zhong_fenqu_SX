@@ -291,12 +291,12 @@ CMakeFiles/CDV1004QT.BIN.dir/clean:
 common/CMakeFiles/common.dir/all:
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/depend
 	$(MAKE) $(MAKESILENT) -f common/CMakeFiles/common.dir/build.make common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34 "Built target common"
 .PHONY : common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 common/CMakeFiles/common.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 0
 .PHONY : common/CMakeFiles/common.dir/rule
@@ -343,12 +343,12 @@ share/mad/CMakeFiles/mad.dir/clean:
 share/lvgl/CMakeFiles/lvgl.dir/all:
 	$(MAKE) $(MAKESILENT) -f share/lvgl/CMakeFiles/lvgl.dir/build.make share/lvgl/CMakeFiles/lvgl.dir/depend
 	$(MAKE) $(MAKESILENT) -f share/lvgl/CMakeFiles/lvgl.dir/build.make share/lvgl/CMakeFiles/lvgl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 "Built target lvgl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 "Built target lvgl"
 .PHONY : share/lvgl/CMakeFiles/lvgl.dir/all
 
 # Build rule for subdir invocation for target.
 share/lvgl/CMakeFiles/lvgl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 32
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 share/lvgl/CMakeFiles/lvgl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 0
 .PHONY : share/lvgl/CMakeFiles/lvgl.dir/rule
@@ -369,12 +369,12 @@ share/lvgl/CMakeFiles/lvgl.dir/clean:
 share/freetype/CMakeFiles/freetype.dir/all:
 	$(MAKE) $(MAKESILENT) -f share/freetype/CMakeFiles/freetype.dir/build.make share/freetype/CMakeFiles/freetype.dir/depend
 	$(MAKE) $(MAKESILENT) -f share/freetype/CMakeFiles/freetype.dir/build.make share/freetype/CMakeFiles/freetype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=34,35,36,37,38,39,40,41 "Built target freetype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=35,36,37,38,39,40,41 "Built target freetype"
 .PHONY : share/freetype/CMakeFiles/freetype.dir/all
 
 # Build rule for subdir invocation for target.
 share/freetype/CMakeFiles/freetype.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 share/freetype/CMakeFiles/freetype.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 0
 .PHONY : share/freetype/CMakeFiles/freetype.dir/rule
@@ -447,12 +447,12 @@ share/xls/CMakeFiles/xls.dir/clean:
 share/jpeg/CMakeFiles/jpeg.dir/all:
 	$(MAKE) $(MAKESILENT) -f share/jpeg/CMakeFiles/jpeg.dir/build.make share/jpeg/CMakeFiles/jpeg.dir/depend
 	$(MAKE) $(MAKESILENT) -f share/jpeg/CMakeFiles/jpeg.dir/build.make share/jpeg/CMakeFiles/jpeg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50 "Built target jpeg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles --progress-num=42,43,44,45,46,47,48,49,50,51 "Built target jpeg"
 .PHONY : share/jpeg/CMakeFiles/jpeg.dir/all
 
 # Build rule for subdir invocation for target.
 share/jpeg/CMakeFiles/jpeg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 share/jpeg/CMakeFiles/jpeg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/CMakeFiles 0
 .PHONY : share/jpeg/CMakeFiles/jpeg.dir/rule

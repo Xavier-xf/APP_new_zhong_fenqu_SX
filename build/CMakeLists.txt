@@ -38,6 +38,7 @@ include_directories(
 	${PROJECT_PATH}include/tuya
 	${PROJECT_PATH}share/
 	${PROJECT_PATH}share/include
+	${PROJECT_PATH}share/include/libxls
 	${PROJECT_PATH}share/lvgl
 	${PROJECT_PATH}common/
 	${PROJECT_PATH}layout/

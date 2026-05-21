@@ -40,27 +40,91 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
 
-CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.c.o
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.c
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
- /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdbool.h
- /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h
+CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.o
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/ctype.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/features.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_touplow.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/fcntl.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/fcntl.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/time.h
  /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stddef.h
- /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitflags.h
- /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitstatus.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/endian.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-16.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/select.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdio.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/wchar.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wchar.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdarg.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitflags.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitstatus.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/alloca.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/string.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/unistd.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/posix_opt.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_posix_opt.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/environments.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/confname.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/libxls/xls.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/libxls/libxls/xlstypes.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdint.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdint.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/libxls/libxls/xlsstruct.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/libxls/libxls/ole.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/libxls/libxls/xlstypes.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/libxls/libxls/xlstool.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/libxls/libxls/xlsstruct.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdbool.h
+
+CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.c.o
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.c
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdbool.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdio.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/features.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_config.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/cdefs.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stddef.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/types.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wordsize.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/typesizes.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_stdio.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/wchar.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/wchar.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/endian.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/endian.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/byteswap.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/byteswap-16.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdarg.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/stdio_lim.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdlib.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitflags.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/waitstatus.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/types.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/time.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/select.h
@@ -68,8 +132,8 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/sigset.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/time.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h
- /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/pthreadtypes.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/alloca.h
+ /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/string.h
 
 CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/laout_wifi_display.c.o
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/laout_wifi_display.c
@@ -210,6 +274,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -406,6 +471,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -600,6 +666,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -794,6 +861,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -988,6 +1056,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -1182,6 +1251,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -1376,6 +1446,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -1570,6 +1641,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -1767,6 +1839,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -1972,6 +2045,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -2167,6 +2241,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -2366,6 +2441,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -2560,6 +2636,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -2754,6 +2831,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -2948,6 +3026,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -3142,6 +3221,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -3336,6 +3416,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -3533,6 +3614,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -3729,6 +3811,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -3923,6 +4006,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -4117,6 +4201,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -4311,6 +4396,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -4506,6 +4592,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -4701,6 +4788,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -4896,6 +4984,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -5090,6 +5179,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -5284,6 +5374,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -5478,6 +5569,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -5672,6 +5764,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -5866,6 +5959,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -6060,6 +6154,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -6263,6 +6358,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -6457,6 +6553,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -6651,6 +6748,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -6845,6 +6943,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -7039,6 +7138,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -7233,6 +7333,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -7427,6 +7528,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -7621,6 +7723,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -7815,6 +7918,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -8010,6 +8114,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -8203,6 +8308,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -8397,6 +8503,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -8591,6 +8698,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -8785,6 +8893,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -8979,6 +9088,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -9173,6 +9283,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -9367,6 +9478,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -9562,6 +9674,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -9759,6 +9872,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -9953,6 +10067,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -10148,6 +10263,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -10352,6 +10468,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -10934,6 +11051,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/lvgl/lvgl.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/tuya/tuya_api.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/mqueue.h
@@ -11188,6 +11306,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
@@ -11601,6 +11720,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/lvgl/lv_img_decoder.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/res/rom.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/mqueue.h
@@ -11804,6 +11924,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_time.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/video_decode.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/anyka37d/ak_vdec.h
@@ -12016,6 +12137,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/include/lvgl/lvgl.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/res/rom.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/mqueue.h
@@ -12229,6 +12351,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/getopt.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/include/common/user_common.h
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h

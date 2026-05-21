@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CDV1004QT.BIN.pdb"
   "CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.c.o"
   "CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.c.o.d"
+  "CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.o"
+  "CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.o.d"
   "CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.c.o"
   "CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.c.o.d"
   "CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/laout_wifi_display.c.o"

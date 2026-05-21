@@ -137,6 +137,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/uClibc_clk_tck.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/common/user_common.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h \

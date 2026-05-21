@@ -154,6 +154,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../onvif/../share/include/lvgl/lvgl.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../onvif/../share/include/tuya/tuya_api.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/common/user_common.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/time.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/mqueue.h \

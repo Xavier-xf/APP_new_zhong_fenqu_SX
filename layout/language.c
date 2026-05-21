@@ -1,5 +1,7 @@
 #include "language.h"
+#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /***
 **   日期:2022-07-07 10:36:31
@@ -20,6 +22,200 @@
 
 static LANGUAGE_ID language_cur_id = LANGUAGE_ID_ENGLISH;
 
+int language_to_xls_col(LANGUAGE_ID id)
+{
+	switch (id)
+	{
+	case LANGUAGE_ID_ENGLISH:
+		return XLS_LANG_COL_ENGLISH;
+	case LANGUAGE_ID_ALABOYU:
+		return XLS_LANG_COL_ARABIC;
+	case LANGUAGE_ID_XIONGYALIYU:
+		return XLS_LANG_COL_HUNGARIAN;
+	case LANGUAGE_ID_SILUOFAKEYU:
+		return XLS_LANG_COL_SLOVAK;
+	case LANGUAGE_ID_LUOMANIYAYU:
+		return XLS_LANG_COL_ROMANIAN;
+	case LANGUAGE_ID_SAIBEIYAYU:
+		return XLS_LANG_COL_SERBIAN;
+	case LANGUAGE_ID_DEYU:
+		return XLS_LANG_COL_GERMAN;
+	case LANGUAGE_ID_BOLANYU:
+		return XLS_LANG_COL_POLISH;
+	case LANGUAGE_ID_PUTAOYAYU:
+		return XLS_LANG_COL_PORTUGUESE;
+	case LANGUAGE_ID_FAYU:
+		return XLS_LANG_COL_FRENCH;
+	case LANGUAGE_ID_CHINESE:
+		return XLS_LANG_COL_CHINESE;
+	default:
+		return XLS_LANG_COL_ENGLISH;
+	}
+}
+
+static void language_normalize_key(const char *src, char *dst, size_t dst_size)
+{
+	size_t out = 0;
+
+	if (dst_size == 0)
+	{
+		return;
+	}
+
+	while (*src != '\0' && out + 1 < dst_size)
+	{
+		unsigned char c = (unsigned char)*src++;
+
+		if (c >= 0x80)
+		{
+			continue;
+		}
+		if ((c >= 'A') && (c <= 'Z'))
+		{
+			c = (unsigned char)(c - 'A' + 'a');
+		}
+		if ((c >= 'a' && c <= 'z') || (c >= '0' && c <= '9'))
+		{
+			dst[out++] = (char)c;
+		}
+	}
+
+	dst[out] = '\0';
+}
+
+static bool language_normalized_equal(const char *left, const char *right)
+{
+	char normalized_left[128];
+	char normalized_right[128];
+
+	if (left == NULL || right == NULL)
+	{
+		return false;
+	}
+
+	language_normalize_key(left, normalized_left, sizeof(normalized_left));
+	language_normalize_key(right, normalized_right, sizeof(normalized_right));
+	return normalized_left[0] != '\0' && strcmp(normalized_left, normalized_right) == 0;
+}
+
+static bool language_exact_equal(const char *left, const char *right)
+{
+	if (left == NULL || right == NULL)
+	{
+		return false;
+	}
+
+	return strcmp(left, right) == 0;
+}
+
+static int language_table_occurrence_index(const char *table[][LANGUAGE_ID_TOTAL], int id)
+{
+	int i;
+	int occurrence = 0;
+	const char *english = table[id][LANGUAGE_ID_ENGLISH];
+
+	for (i = 0; i < id; i++)
+	{
+		if (language_normalized_equal(table[i][LANGUAGE_ID_ENGLISH], english))
+		{
+			occurrence++;
+		}
+	}
+
+	return occurrence;
+}
+
+static const char *language_xls_lookup(const char *english_fallback, LANGUAGE_ID id, int occurrence)
+{
+	int row;
+	int col;
+	int pass;
+
+	if (!is_language_xls_inited())
+	{
+		init_language_xls_info();
+		if (!is_language_xls_inited())
+		{
+			return NULL;
+		}
+	}
+
+	col = language_to_xls_col(id);
+	for (pass = 0; pass < 2; pass++)
+	{
+		int occurrence_left = occurrence;
+
+		for (row = 0; row < lang_xls_str_num_get(); row++)
+		{
+			const char *english = lang_xls_str_get(row, XLS_LANG_COL_ENGLISH);
+			const char *translated;
+			bool matched;
+
+			if (english == NULL || english[0] == '\0')
+			{
+				continue;
+			}
+
+			matched = pass == 0 ? language_exact_equal(english, english_fallback) : language_normalized_equal(english, english_fallback);
+			if (!matched)
+			{
+				continue;
+			}
+			if (occurrence_left > 0)
+			{
+				occurrence_left--;
+				continue;
+			}
+
+			translated = lang_xls_str_get(row, col);
+			if (translated != NULL && translated[0] != '\0')
+			{
+				return translated;
+			}
+			break;
+		}
+	}
+
+	return NULL;
+}
+
+static const char *language_two_dim_get(const char *table[][LANGUAGE_ID_TOTAL], int id)
+{
+	const char *fallback = table[id][language_cur_id];
+	const char *english = table[id][LANGUAGE_ID_ENGLISH];
+	const char *translated = language_xls_lookup(english, language_cur_id, language_table_occurrence_index(table, id));
+
+	if (translated != NULL)
+	{
+		return translated;
+	}
+
+	if (fallback == NULL || fallback[0] == '\0')
+	{
+		fallback = table[id][LANGUAGE_ID_ENGLISH];
+	}
+
+	return fallback;
+}
+
+static const char *language_two_dim_get_by_lang(const char *table[][LANGUAGE_ID_TOTAL], int id, LANGUAGE_ID lang)
+{
+	const char *english = table[id][LANGUAGE_ID_ENGLISH];
+	const char *translated = language_xls_lookup(english, lang, language_table_occurrence_index(table, id));
+
+	if (translated != NULL)
+	{
+		return translated;
+	}
+
+	if (table[id][lang] == NULL || table[id][lang][0] == '\0')
+	{
+		return table[id][LANGUAGE_ID_ENGLISH];
+	}
+
+	return table[id][lang];
+}
+
 /***
 ** 日期: 2022-04-26 08:55
 ** 作者: leo.liu
@@ -28,7 +224,28 @@ static LANGUAGE_ID language_cur_id = LANGUAGE_ID_ENGLISH;
 ***/
 void language_id_set(LANGUAGE_ID id)
 {
+	const char *monitor;
+	const char *setting;
+	const char *language;
+
+	if (id < 0 || id >= LANGUAGE_ID_TOTAL)
+	{
+		printf("[language] invalid id=%d, use English\n", id);
+		id = LANGUAGE_ID_ENGLISH;
+	}
+
 	language_cur_id = id;
+
+	monitor = language_xls_lookup("Monitor", id, 0);
+	setting = language_xls_lookup("Configuration", id, 0);
+	language = language_xls_lookup("Language", id, 0);
+	printf("[language] set id=%d col=%d xls=%d row1=%s row75=%s row157=%s\n",
+	       id,
+	       language_to_xls_col(id),
+	       is_language_xls_inited(),
+	       monitor == NULL ? "(null)" : monitor,
+	       setting == NULL ? "(null)" : setting,
+	       language == NULL ? "(null)" : language);
 }
 
 /***
@@ -72,6 +289,7 @@ static const char *lang_common_language[LANG_COMMON_ID_TOTAL][LANGUAGE_ID_TOTAL]
 
 	{"TUYA Playback cache","ذاكرة التخزين المؤقت"},
 };
+
 /***
 ** 日期: 2022-04-28 13:55
 ** 作者: leo.liu
@@ -80,7 +298,7 @@ static const char *lang_common_language[LANG_COMMON_ID_TOTAL][LANGUAGE_ID_TOTAL]
 ***/
 const char *language_common_string_get(LANG_COMMON_ID id)
 {
-	return lang_common_language[id][language_cur_id];
+	return language_two_dim_get(lang_common_language, id);
 }
 /***
 **   日期:2022-05-24 10:04:38
@@ -187,7 +405,7 @@ static const char *layout_home_language[HOME_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
 ***/
 const char *layout_home_string_get(LAYOUT_HOME_LANG_ID id)
 {
-	return layout_home_language[id][language_cur_id];
+	return language_two_dim_get(layout_home_language, id);
 }
 
 static const char *layout_setting_record_language[SETTING_RECROD_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -205,23 +423,23 @@ static const char *layout_setting_record_language[SETTING_RECROD_LANG_ID_TOTAL][
 	/***** SETTING_RECORD_LANG_ID_DISPLAY *****/
 	{"Display","عرض"},
 	/***** SETTING_RECORD_LANG_ID_ETC *****/
-	{"Others", "إلخ"},
+	{"Etc", "إلخ"},
 
 	/***** SETTING_RECORD_LANG_ID_AUTO_RECORD  *****/
-	{"Auto recording", "التسجيل التلقائي"},
+	{"Auto Recording", "التسجيل التلقائي"},
 	/***** SETTING_RECORD_LANG_ID_MOTION_DETECTION  *****/
-	{"Motion detection","كشف الحركة"},
+	{"Motion Detection","كشف الحركة"},
 	/***** SETTING_RECORD_LANG_ID_WIFI *****/
 	{"Wi-Fi","واي فاي"},
 	/***** SETTING_RECORD_LANG_ID_ALWAYS *****/ 
 	{"Loop Monitoring","رصد الحلقات"},
 
 	/***** SETTING_RECORD_LANG_ID_ALWAYS_10SEC *****/
-	{"10 S","10 ثواني",},
+	{"10S","10 ثواني",},
 	/***** SETTING_RECORD_LANG_ID_ALWAYS_30SEC *****/
-	{"30 S","30 ثواني"},
+	{"30S","30 ثواني"},
 	/***** SETTING_RECORD_LANG_ID_ALWAYS_60SEC *****/
-	{"60 S","60 ثواني"},
+	{"60S","60 ثواني"},
 
 	{"Door1 always on","door1 دائما"},
 	{"Door2 always on","door2 دائما"},
@@ -247,7 +465,7 @@ static const char *layout_setting_record_language[SETTING_RECROD_LANG_ID_TOTAL][
 ***/
 const char *layout_setting_record_string_get(LAYOUT_SETTING_RECORD_LANG_ID id)
 {
-	return layout_setting_record_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_record_language, id);
 } 
 
 
@@ -357,7 +575,7 @@ static const char *layout_home_weather_language[HOME_WEATHER_LANG_ID_TOTAL][LANG
 
 const char *layout_home_weather_string_get(LAYOUT_HOME_WEATHER_LANG_ID id)
 {
-	return layout_home_weather_language[id][language_cur_id];
+	return language_two_dim_get(layout_home_weather_language, id);
 }
 
 static const char *layout_home_weather_milieu_language[HOME_WEATHER_LABEL_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -371,14 +589,14 @@ static const char *layout_home_weather_milieu_language[HOME_WEATHER_LABEL_LANG_I
 
 const char *layout_home_weather_milieu_string_get(LAYOUT_HOME_WEATHER_MILIEU_LANG_ID id)
 {
-	return layout_home_weather_milieu_language[id][language_cur_id];
+	return language_two_dim_get(layout_home_weather_milieu_language, id);
 }
 
 
 static const char *layout_setting_volume_language[SETTING_VOLUME_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
     {
 	/***** SETTING_VOLUME_LANG_ID_TOUCH_TONE *****/
-	{"Touch tone",  "نغمة اللمس"},
+	{"Touch Tone",  "نغمة اللمس"},
 	/***** SETTING_VOLUME_LANG_ID_DOOR1_TONE *****/
 	{"Door1 calling tone","نغمة اتصال باب 1"},
 	/***** SETTING_VOLUME_LANG_ID_DOOR2_TONE *****/
@@ -394,6 +612,7 @@ static const char *layout_setting_volume_language[SETTING_VOLUME_LANG_ID_TOTAL][
 	{"Sound5", "5 الصوت"},
 	{"Sound6", "6 الصوت"},
 };
+
 /***
 ** 日期: 2022-04-29 08:14
 ** 作者: leo.liu
@@ -402,7 +621,7 @@ static const char *layout_setting_volume_language[SETTING_VOLUME_LANG_ID_TOTAL][
 ***/
 const char *layout_setting_volume_string_get(LAYOUT_SETTING_VOLUME_LANG_ID id)
 {
-	return layout_setting_volume_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_volume_language, id);
 }
 
 
@@ -426,6 +645,7 @@ static const char *layout_setting_ring_language[SETTING_RING_LANG_ID_TOTAL][LANG
 	{"Error","خطأ"},
 	
 };
+
 /***
 ** 日期: 2022-04-29 08:14
 ** 作者: leo.liu
@@ -434,7 +654,7 @@ static const char *layout_setting_ring_language[SETTING_RING_LANG_ID_TOTAL][LANG
 ***/
 const char *layout_setting_ring_string_get(LAYOUT_SETTING_RING_LANG_ID id)
 {
-	return layout_setting_ring_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_ring_language, id);
 }
 
 
@@ -450,10 +670,11 @@ static const char *layout_setting_storage_language[SETTING_STORAGE_LANG_ID_TOTAL
 	/***** SETTING_STORAGE_LANG_ID_MSG_DEL_FILE *****/
 	{"Deleting…","حذف الملف"},
 
-	{"SD Card capacity","بطاقة بطاقة SD"},
+	{"SD card capacity","بطاقة بطاقة SD"},
 	{"Flash capacity","سعة الذاكرة الداخلية"},
 	{"Back up local photos to SD card","نسخ الصور المحلية إلى بطاقة SD"},
 };
+
 /***
 ** 日期: 2022-04-29 15:33
 ** 作者: leo.liu
@@ -462,13 +683,13 @@ static const char *layout_setting_storage_language[SETTING_STORAGE_LANG_ID_TOTAL
 ***/
 const char *layout_setting_storage_string_get(LAYOUT_SETTING_STORAGE_LANG_ID id)
 {
-	return layout_setting_storage_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_storage_language, id);
 }
 
 static const char *layout_setting_systime_language[SETTING_DATE_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
     {
 	/***** SETTING_DATE_LANG_ID_SYS_TIME *****/
-	{"System Time","وقت النظام"},
+	{"System time","وقت النظام"},
 };
 
 /***
@@ -479,7 +700,7 @@ static const char *layout_setting_systime_language[SETTING_DATE_LANG_ID_TOTAL][L
 ***/
 const char *layout_setting_systime_string_get(LAYOUT_SETTING_DATE_LANG_id id)
 {
-	return layout_setting_systime_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_systime_language, id);
 }
 
 static const char *layout_setting_display_language[SETTING_DISPLAY_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -489,7 +710,7 @@ static const char *layout_setting_display_language[SETTING_DISPLAY_LANG_ID_TOTAL
 	/***** SETTING_DISPLAY_LANG_ID_STANDBY_MODE *****/
 	{"Standby setting","أدخل وضع الاستعداد"},
 	/***** SETTING_DISPLAY_LANG_ID_DISPLAY_CLEAN *****/
-	{"Display cleaning mode","عرض وضع التنظيف"},
+	{"Display Cleaning Mode","عرض وضع التنظيف"},
 	/***** SETTING_DISPLAY_LANG_ID_DISPLAY_BRIGHTNESS *****/
 	{"Brightness","عرض"},
 
@@ -509,7 +730,7 @@ static const char *layout_setting_display_language[SETTING_DISPLAY_LANG_ID_TOTAL
 ***/
 const char *layout_setting_display_string_get(LAYOUT_SETTING_DISPLAY_LANG_ID id)
 {
-	return layout_setting_display_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_display_language, id);
 }
 
 static const char *layout_setting_etc_language[SETTING_ETC_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -595,7 +816,7 @@ static const char *layout_setting_etc_language[SETTING_ETC_LANG_ID_TOTAL][LANGUA
 	/***** SETTING_ETC_LANG_ID_SUB_STREAM *****/
 	{"Sub code stream","تدفق الكود الفرعي" },
 	/***** SETTING_ETC_LANG_ID_SUB_STREAM *****/
-	{"Delete this device ?","أمحي هذا الجهاز؟" },
+	{"Delete this device?","أمحي هذا الجهاز؟" },
 
 	{"Panasonic","Panasonic" },
 	/***** SETTING_ETC_LANG_ID_BRAND_DAHUA *****/
@@ -603,7 +824,7 @@ static const char *layout_setting_etc_language[SETTING_ETC_LANG_ID_TOTAL][LANGUA
 	/***** SETTING_ETC_LANG_ID_BRAND_HIKVISION *****/
 	{"Hikvision","Hikvision" },
 	/***** SETTING_ETC_LANG_ID_BRAND_XM *****/
-	{"Xiongmai","Xiongmai" },
+	{"XM","XM" },
 	/***** SETTING_ETC_LANG_ID_BRAND_RTSP *****/
 	{"RTSP","RTSP" },
 
@@ -619,6 +840,7 @@ static const char *layout_setting_etc_language[SETTING_ETC_LANG_ID_TOTAL][LANGUA
 	{"TP test","فحص TP" },
 
 };
+
 /***
 ** 日期: 2022-05-04 13:59
 ** 作者: leo.liu
@@ -627,7 +849,7 @@ static const char *layout_setting_etc_language[SETTING_ETC_LANG_ID_TOTAL][LANGUA
 ***/
 const char *layout_setting_etc_string_get(LAYOUT_SETTING_ETC_LANG_ID id)
 {
-	return layout_setting_etc_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_etc_language, id);
 }
 
 /***
@@ -638,7 +860,7 @@ const char *layout_setting_etc_string_get(LAYOUT_SETTING_ETC_LANG_ID id)
 ***/
 const char *layout_setting_etc_string_get_form_language(LAYOUT_SETTING_ETC_LANG_ID string_id, LANGUAGE_ID language_id)
 {
-	return layout_setting_etc_language[string_id][language_id];
+	return language_two_dim_get_by_lang(layout_setting_etc_language, string_id, language_id);
 }
 
 static const char *layout_setting_motion_language[SETTING_MOTION_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -663,6 +885,7 @@ static const char *layout_setting_motion_language[SETTING_MOTION_LANG_ID_TOTAL][
 	{"Screen ON when motion detected","شاشة LCD قيد التشغيل لاكتشاف الحركة"},
 	/***** SETTING_MOTION_LANG_ID_USE_TIMER *****/
 	{"Using motion timers","استخدام مؤقتات الحركة"}};
+
 /***
 ** 日期: 2022-05-05 11:40
 ** 作者: leo.liu
@@ -671,7 +894,7 @@ static const char *layout_setting_motion_language[SETTING_MOTION_LANG_ID_TOTAL][
 ***/
 const char *layout_setting_motion_string_get(LAYOUT_SETTING_MOTION_LANG_ID id)
 {
-	return layout_setting_motion_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_motion_language, id);
 }
 
 static const char *layout_setting_frame_language[SETTING_FRAME_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -705,11 +928,12 @@ static const char *layout_setting_frame_language[SETTING_FRAME_LANG_ID_TOTAL][LA
 	/***** SETTING_FRAME_LANG_ID_PLAYBACK *****/
 	{"Photos in media", "الصور الفوتوغرافية في الوسائط"},
 	/***** SETTING_FRAME_LANG_ID_DOOR1_CCTV1 *****/
-	{"Door1 & CCTV 1","باب 1  &كاميرا مراقبه  1"},
+	{"Door1&CCTV1","باب 1  &كاميرا مراقبه  1"},
 	/***** SETTING_FRAME_LANG_ID_DOOR2_CCTV2 *****/
-	{"Door2 & CCTV 2", "باب  2  &كاميرا مراقبه  2"},
+	{"Door2&CCTV2", "باب  2  &كاميرا مراقبه  2"},
 	{"SD Card Image","صورة بطاقة SD"},
 };
+
 /***
 ** 日期: 2022-05-06 15:26
 ** 作者: leo.liu
@@ -718,7 +942,7 @@ static const char *layout_setting_frame_language[SETTING_FRAME_LANG_ID_TOTAL][LA
 ***/
 const char *layout_setting_frame_string_get(LAYOUT_SETTING_FRAME_LANG_ID id)
 {
-	return layout_setting_frame_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_frame_language, id);
 }
 
 static const char *layout_setting_password_language[SETTING_PASSWORD_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -736,6 +960,7 @@ static const char *layout_setting_password_language[SETTING_PASSWORD_LANG_ID_TOT
 	/***** SETTING_PASSWORD_LANG_ID_CONFIRM_PWD *****/
 	{"Confirm Password","تأكيد كلمة المرور"},
 };
+
 /***
 ** 日期: 2022-05-07 15:55
 ** 作者: leo.liu
@@ -744,15 +969,16 @@ static const char *layout_setting_password_language[SETTING_PASSWORD_LANG_ID_TOT
 ***/
 const char *layout_setting_password_string_get(LAYOUT_SETTING_PASSWORD_LANG_ID id)
 {
-	return layout_setting_password_language[id][language_cur_id];
+	return language_two_dim_get(layout_setting_password_language, id);
 }
 
 static const char *layout_playback_language[PLAYBACK_LANG_ID_TOTAL][LANGUAGE_ID_TOTAL] =
     {
 	/***** PLAYBACK_LANG_ID_DELETE_PHOTO *****/
-	{"Delete the photo?","حذف الصورة؟"},
-	{"Delete the video?","حذف الفيديو؟"},
+	{"Delete the Photo?","حذف الصورة؟"},
+	{"Delete the Video?","حذف الفيديو؟"},
 };
+
 /***
 **   日期:2022-05-24 11:17:49
 **   作者: leo.liu
@@ -761,7 +987,7 @@ static const char *layout_playback_language[PLAYBACK_LANG_ID_TOTAL][LANGUAGE_ID_
 ***/
 const char *layout_playback_string_get(LAYOUT_PLAYBACK_LANGUAGE_ID id)
 {
-	return layout_playback_language[id][language_cur_id];
+	return language_two_dim_get(layout_playback_language, id);
 }
 
 static const char *layout_security_language[LAYOUT_SECURITY_LANGUAGE_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -785,17 +1011,18 @@ static const char *layout_security_language[LAYOUT_SECURITY_LANGUAGE_ID_TOTAL][L
 	/*****  LAYOUT_SECURITY_LANGUAGE_ID_SENSOR_1_AND_2_ERROR *****/
 	{"Security 1,2 Please check the sensor status", "يرجى التحقق من حالة مستشعر الأمان  1  ،  2 "},
 	/*****  LAYOUT_SECURITY_LANGUAGE_ID_SECURITY_EMERGENCY *****/
-	{"Security emergency","الطوارئ الأمنية"
+	{"Security Emergency","الطوارئ الأمنية"
 	 },
 	/*****  LAYOUT_SECURITY_LANGUAGE_ID_SECURITY_EMERGENCY_1 *****/
 	{
-	    "Security sensor 1 emergency", "مستشعر الأمان 1  الطوارئ الأمنية"},
+	    "Security Sensor 1 Emergency", "مستشعر الأمان 1  الطوارئ الأمنية"},
 	/*****  LAYOUT_SECURITY_LANGUAGE_ID_SECURITY_EMERGENCY_2 *****/
 	{
-	    "Security sensor 2 emergency", "مستشعر الأمان 2 الطوارئ الأمنية"},
+	    "Security Sensor 2 Emergency", "مستشعر الأمان 2 الطوارئ الأمنية"},
 	/*****  LAYOUT_SECURITY_LANGUAGE_ID_EMERITY_RECORD *****/
 	{"Emergency records","سجلات الطوارئ"},
 };
+
 /***
 **   日期:2022-05-26 14:39:55
 **   作者: leo.liu
@@ -804,7 +1031,7 @@ static const char *layout_security_language[LAYOUT_SECURITY_LANGUAGE_ID_TOTAL][L
 ***/
 const char *layout_security_string_get(LAYOUT_SECURITY_LANGUAGE_ID id)
 {
-	return layout_security_language[id][language_cur_id];
+	return language_two_dim_get(layout_security_language, id);
 }
 
 static const char *layout_intercom_language[LAYOUT_INTERCOM_LANGUAGE_ID_TOTAL][LANGUAGE_ID_TOTAL] =
@@ -816,6 +1043,7 @@ static const char *layout_intercom_language[LAYOUT_INTERCOM_LANGUAGE_ID_TOTAL][L
 	{"Please select a room number","يرجى اختيار رقم الغرفة"},
 	{"No extension monitor was connected","لم يتم ضبط الخط الداخلي"},
 };
+
 /***
 **   日期:2022-05-30 09:17:03
 **   作者: leo.liu
@@ -824,7 +1052,7 @@ static const char *layout_intercom_language[LAYOUT_INTERCOM_LANGUAGE_ID_TOTAL][L
 ***/
 const char *layout_intercom_string_get(LAYOUT_INTERCOM_LANGUAGE_ID id)
 {
-	return layout_intercom_language[id][language_cur_id];
+	return language_two_dim_get(layout_intercom_language, id);
 }
 
 static const char *layout_wifi_language[LAYOUT_WIFI_LANGUAGE_ID_TOTAL][LANGUAGE_ID_TOTAL] = {
@@ -832,7 +1060,7 @@ static const char *layout_wifi_language[LAYOUT_WIFI_LANGUAGE_ID_TOTAL][LANGUAGE_
     /*****  LAYOUT_WIFI_LANGUAGE_ID_WIFI *****/
     {"Wi-Fi","واي فاي"},
     /*****  LAYOUT_WIFI_LANGUAGE_ID_NETWORK_CONNECTED *****/
-    {"Connected network","اتصال الشبكه"},
+    {"Connected Network","اتصال الشبكه"},
     /*****  LAYOUT_WIFI_LANGUAGE_ID_SEARCHED_NETWORK *****/
     {"Searched network",
     
@@ -842,11 +1070,11 @@ static const char *layout_wifi_language[LAYOUT_WIFI_LANGUAGE_ID_TOTAL][LANGUAGE_
     
      "حماية"},
     /*****  LAYOUT_WIFI_LANGUAGE_ID_IP_ADDRES *****/
-    {"IP account",
+    {"IP address",
     
      "عنوان IP"},
     /*****LAYOUT_WIFI_LANGUAGE_ID_ADD_WIFI   *****/
-    {"Add Wi-Fi network",
+    {"Add Wi-Fi Network",
     
      "أضف شبكة Wi-Fi"},
     /*****LAYOUT_WIFI_LANGUAGE_ID_ENTER_ACCOUNT   *****/
@@ -854,7 +1082,7 @@ static const char *layout_wifi_language[LAYOUT_WIFI_LANGUAGE_ID_TOTAL][LANGUAGE_
      
      "الرجاء إدخال رقم الحساب"},
     /*****  LAYOUT_WIFI_LANGUAGE_ID_WIFI_CONNECTING *****/
-    {"connecting", "توصيل"},
+    {"Connecting", "توصيل"},
     /*****  LAYOUT_WIFI_LANGUAGE_ID_NTWORK_ERROR *****/
     {"Network Error.Please check the network","خطأ في الشبكة. يرجى التحقق من شبكة الإنترنت."},
 
@@ -872,6 +1100,7 @@ static const char *layout_wifi_language[LAYOUT_WIFI_LANGUAGE_ID_TOTAL][LANGUAGE_
 
 
 };
+
 /***
 **   日期:2022-06-06 08:35:34
 **   作者: leo.liu
@@ -880,5 +1109,5 @@ static const char *layout_wifi_language[LAYOUT_WIFI_LANGUAGE_ID_TOTAL][LANGUAGE_
 ***/
 const char *layout_wifi_string_get(LAYOUT_WIFI_LANGUAGE_ID id)
 {
-	return layout_wifi_language[id][language_cur_id];
+	return language_two_dim_get(layout_wifi_language, id);
 }

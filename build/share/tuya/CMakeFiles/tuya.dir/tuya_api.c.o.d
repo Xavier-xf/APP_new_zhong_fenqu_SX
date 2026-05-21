@@ -176,6 +176,7 @@ share/tuya/CMakeFiles/tuya.dir/tuya_api.c.o: \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/lvgl/lv_img_decoder.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../res/rom.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../layout/language.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../layout/lang_xls.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/common/video_decode.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/anyka37d/ak_common.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/anyka37d/ak_vdec.h \

@@ -721,6 +721,7 @@ static void upgrade_rom_bin_firmware(void)
 ** 返回参数说明：
 ***/
 static unsigned int font_mask = 0x00;
+static unsigned int language_mask = 0x00;
 static void detect_font_check(void)
 {
 	if (access(FIRMWARE_PATH "sat_leo.ttf", F_OK) == 0)
@@ -728,6 +729,16 @@ static void detect_font_check(void)
 		upgrade_total++;
 		font_mask |= 0x01;
 		printf("find:sat_leo.ttf \n");
+	}
+}
+
+static void detect_language_check(void)
+{
+	if (access(FIRMWARE_PATH "language.xls", F_OK) == 0)
+	{
+		upgrade_total++;
+		language_mask |= 0x01;
+		printf("find:language.xls \n");
 	}
 }
 
@@ -740,6 +751,21 @@ static void upgrade_font_firmware(void)
 			system("rm -f /app/app/sat_leo.ttf");
 		}
 		system("cp " FIRMWARE_PATH "sat_leo.ttf /app/app/");
+
+		upgrade_count++;
+		upgrade_fb_progress_display();
+	}
+}
+
+static void upgrade_language_firmware(void)
+{
+	if ((language_mask & 0x01) && (access(FIRMWARE_PATH "language.xls", F_OK) == 0))
+	{
+		if (access("/app/app/language.xls", F_OK) == 0)
+		{
+			system("rm -f /app/app/language.xls");
+		}
+		system("cp " FIRMWARE_PATH "language.xls /app/app/");
 
 		upgrade_count++;
 		upgrade_fb_progress_display();
@@ -792,6 +818,10 @@ static void upgrade_firmware(void)
 	{
 		upgrade_font_firmware();
 	}
+	if (language_mask != 0)
+	{
+		upgrade_language_firmware();
+	}
 	system("rm -rf " FIRMWARE_PATH);
 	system("sync");
 }
@@ -837,6 +867,9 @@ void upgrade_check_firmware(void)
 
 	/***** 探测字库 *****/
 	detect_font_check();
+
+	/***** 探测语言表 *****/
+	detect_language_check();
 platform:
 	if (upgrade_total > 0)
 	{

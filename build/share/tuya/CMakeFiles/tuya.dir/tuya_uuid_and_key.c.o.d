@@ -68,12 +68,12 @@ share/tuya/CMakeFiles/tuya.dir/tuya_uuid_and_key.c.o: \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/ipc.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/msg.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/bits/msq.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/tuya/../include/libxls/xls.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/tuya/../include/libxls/libxls/xlstypes.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/xls.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlstypes.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdint.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdint.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/tuya/../include/libxls/libxls/xlsstruct.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/tuya/../include/libxls/libxls/ole.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/tuya/../include/libxls/libxls/xlstypes.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/tuya/../include/libxls/libxls/xlstool.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/tuya/../include/libxls/libxls/xlsstruct.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlsstruct.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/ole.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlstypes.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlstool.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlsstruct.h

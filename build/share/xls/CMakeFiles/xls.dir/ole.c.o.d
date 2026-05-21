@@ -43,10 +43,10 @@ share/xls/CMakeFiles/xls.dir/ole.c.o: \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/sys/sysmacros.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/alloca.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/assert.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/xls/../include/libxls/libxls/ole.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/xls/../include/libxls/libxls/xlstypes.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/ole.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlstypes.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdint.h \
  /opt/arm-anykav500-linux-uclibcgnueabi/arm-anykav500-linux-uclibcgnueabi/sysroot/usr/include/stdint.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/xls/../include/libxls/libxls/xlstool.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/xls/../include/libxls/libxls/xlsstruct.h \
- /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/share/xls/../include/libxls/libxls/endian.h
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlstool.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/xlsstruct.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../share/include/libxls/libxls/endian.h

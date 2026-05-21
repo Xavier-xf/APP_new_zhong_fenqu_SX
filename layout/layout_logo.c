@@ -119,6 +119,8 @@ static void layout_logo_loding_task(lv_task_t *task)
 	backlight_brightness_set(user_data_get()->display.lcd_brigtness);
 	backlight_enable(true);
 
+	init_language_xls_info();
+
 	/***** 设置语言 *****/
 	language_id_set(user_data_get()->etc.language);
 

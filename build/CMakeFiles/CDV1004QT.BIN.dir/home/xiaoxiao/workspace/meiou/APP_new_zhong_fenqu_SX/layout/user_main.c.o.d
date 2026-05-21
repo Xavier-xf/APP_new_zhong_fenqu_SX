@@ -158,6 +158,7 @@ CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_S
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/common/user_time.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_monitor.h \
+ /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/user_data.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/common/video_decode.h \
  /home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/build/../include/anyka37d/ak_vdec.h \

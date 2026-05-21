@@ -251,9 +251,111 @@ BYTE *utf8_decode(BYTE *str, DWORD len, char *encoding)
 	return ret;
 }
 
+static int utf8_append_codepoint(BYTE *out, size_t out_size, size_t *out_len, unsigned int codepoint)
+{
+	if (codepoint <= 0x7F)
+	{
+		if (*out_len + 1 >= out_size)
+			return 0;
+		out[(*out_len)++] = (BYTE)codepoint;
+	}
+	else if (codepoint <= 0x7FF)
+	{
+		if (*out_len + 2 >= out_size)
+			return 0;
+		out[(*out_len)++] = (BYTE)(0xC0 | (codepoint >> 6));
+		out[(*out_len)++] = (BYTE)(0x80 | (codepoint & 0x3F));
+	}
+	else if (codepoint <= 0xFFFF)
+	{
+		if (*out_len + 3 >= out_size)
+			return 0;
+		out[(*out_len)++] = (BYTE)(0xE0 | (codepoint >> 12));
+		out[(*out_len)++] = (BYTE)(0x80 | ((codepoint >> 6) & 0x3F));
+		out[(*out_len)++] = (BYTE)(0x80 | (codepoint & 0x3F));
+	}
+	else
+	{
+		if (*out_len + 4 >= out_size)
+			return 0;
+		out[(*out_len)++] = (BYTE)(0xF0 | (codepoint >> 18));
+		out[(*out_len)++] = (BYTE)(0x80 | ((codepoint >> 12) & 0x3F));
+		out[(*out_len)++] = (BYTE)(0x80 | ((codepoint >> 6) & 0x3F));
+		out[(*out_len)++] = (BYTE)(0x80 | (codepoint & 0x3F));
+	}
+	return 1;
+}
+
+static BYTE *utf16le_decode_to_utf8_prefix(const BYTE *s, int len, size_t *newlen)
+{
+	size_t out_size;
+	size_t out_len = 0;
+	BYTE *out;
+	int i;
+
+	if (s == NULL || len <= 0)
+	{
+		return NULL;
+	}
+
+	out_size = (size_t)len * 2 + 1;
+	out = (BYTE *)malloc(out_size);
+	if (out == NULL)
+	{
+		return NULL;
+	}
+
+	for (i = 0; i + 1 < len; i += 2)
+	{
+		unsigned int w1 = (unsigned int)s[i] | ((unsigned int)s[i + 1] << 8);
+		unsigned int codepoint = w1;
+
+		if (w1 == 0)
+		{
+			break;
+		}
+		if (w1 >= 0xD800 && w1 <= 0xDBFF)
+		{
+			unsigned int w2;
+
+			if (i + 3 >= len)
+			{
+				break;
+			}
+			w2 = (unsigned int)s[i + 2] | ((unsigned int)s[i + 3] << 8);
+			if (w2 < 0xDC00 || w2 > 0xDFFF)
+			{
+				break;
+			}
+			codepoint = 0x10000 + (((w1 - 0xD800) << 10) | (w2 - 0xDC00));
+			i += 2;
+		}
+		else if (w1 >= 0xDC00 && w1 <= 0xDFFF)
+		{
+			break;
+		}
+
+		if (!utf8_append_codepoint(out, out_size, &out_len, codepoint))
+		{
+			break;
+		}
+	}
+
+	out[out_len] = 0;
+	if (newlen)
+	{
+		*newlen = out_len;
+	}
+	return out;
+}
+
 // Convert unicode string to to_enc encoding
 BYTE *unicode_decode(const BYTE *s, int len, size_t *newlen, const char *to_enc)
 {
+	if (to_enc == NULL || strcmp(to_enc, "UTF-8") == 0)
+	{
+		return utf16le_decode_to_utf8_prefix(s, len, newlen);
+	}
 #ifdef HAVE_ICONV
 	// Do iconv conversion
 #ifdef AIX
@@ -318,6 +420,19 @@ BYTE *unicode_decode(const BYTE *s, int len, size_t *newlen, const char *to_enc)
 					}
 					else
 					{
+						/* Some project xls cells contain a valid prefix followed by
+						 * malformed UTF-16. Keep the prefix instead of losing the cell.
+						 */
+						if (out_ptr > outbuf)
+						{
+							break;
+						}
+						if (inlenleft >= 2)
+						{
+							src_ptr += 2;
+							inlenleft -= 2;
+							continue;
+						}
 						free(outbuf), outbuf = NULL;
 						break;
 					}

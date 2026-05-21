@@ -270,6 +270,30 @@ home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDV1004QT.BIN.dir/build.make CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.c.s
 .PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.c.s
 
+home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.o: home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.o
+.PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.o
+
+# target to build an object file
+home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDV1004QT.BIN.dir/build.make CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.o
+.PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.o
+
+home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.i: home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.i
+.PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.i
+
+# target to preprocess a source file
+home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDV1004QT.BIN.dir/build.make CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.i
+.PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.i
+
+home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.s: home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.s
+.PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.s
+
+# target to generate assembly for a file
+home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CDV1004QT.BIN.dir/build.make CMakeFiles/CDV1004QT.BIN.dir/home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.s
+.PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.c.s
+
 home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.o: home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.c.o
 .PHONY : home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.o
 
@@ -1851,6 +1875,9 @@ help:
 	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.o"
 	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.i"
 	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/gsm6505.s"
+	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.o"
+	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.i"
+	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/lang_xls.s"
 	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.o"
 	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.i"
 	@echo "... home/xiaoxiao/workspace/meiou/APP_new_zhong_fenqu_SX/layout/language.s"

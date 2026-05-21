@@ -625,14 +625,30 @@ void home_date_refresh_display(lv_obj_t *parent, struct tm *tm, int date_id)
 		return;
 	}
 
-	const char *week_str = layout_home_string_get(HOME_LANG_ID_WEEK_1 + tm->tm_wday - 1);
-	const char *mon_str = layout_home_string_get(HOME_LANG_ID_MONTH_1 + tm->tm_mon - 1);
+	int week_index = tm->tm_wday;
+	int month_index = tm->tm_mon;
+
+	if (week_index < 1 || week_index > 7)
+	{
+		week_index = 1;
+	}
+	if (month_index < 1 || month_index > 12)
+	{
+		month_index = 1;
+	}
+
+	const char *week_str = layout_home_string_get(HOME_LANG_ID_WEEK_1 + week_index - 1);
+	const char *mon_str = layout_home_string_get(HOME_LANG_ID_MONTH_1 + month_index - 1);
 
 	LANGUAGE_ID lang = language_id_get();
 	if (lang == LANGUAGE_ID_ENGLISH)
 	{
 		// printf("%d %d %d %d\n",tm->tm_wday,tm->tm_mday,tm->tm_mon,tm->tm_year);
 		lv_label_set_text_fmt(label_date, "%s, %d  %s  %04d", week_str,tm->tm_mday, mon_str, tm->tm_year);
+	}
+	else if (lang == LANGUAGE_ID_CHINESE)
+	{
+		lv_label_set_text_fmt(label_date, "%04d年%d月%d日,%s", tm->tm_year, tm->tm_mon, tm->tm_mday, week_str);
 	}
 	// else if (lang == LANGUAGE_ID_HANYU)
 	// {
@@ -645,10 +661,6 @@ void home_date_refresh_display(lv_obj_t *parent, struct tm *tm, int date_id)
 	// else if (lang == LANGUAGE_ID_XIBANYA)
 	// {
 	// 	lv_label_set_text_fmt(label_date, "%s,%d-%s-%04d", week_str, tm->tm_mday, mon_str, tm->tm_year);
-	// }
-	// else if (lang == LANGUAGE_ID_CHINESE)
-	// {
-	// 	lv_label_set_text_fmt(label_date, "%04d年%d月%d日,%s", tm->tm_year, tm->tm_mon, tm->tm_mday, week_str);
 	// }
 	// else if (lang == LANGUAGE_ID_TUERQI)
 	// {
@@ -665,6 +677,10 @@ void home_date_refresh_display(lv_obj_t *parent, struct tm *tm, int date_id)
 	else if (lang == LANGUAGE_ID_ALABOYU)
 	{
 		lv_label_set_text_fmt(label_date, "%s, %s %d, %04d", week_str, mon_str, tm->tm_mday, tm->tm_year);
+	}
+	else
+	{
+		lv_label_set_text_fmt(label_date, "%s, %d %s %04d", week_str, tm->tm_mday, mon_str, tm->tm_year);
 	}
 	// else if (lang == LANGUAGE_ID_PUTAOYA)
 	// {

@@ -156,15 +156,21 @@ void lv_freetype_destroy(void)
 bool lv_ft_font_init(lv_font_t **info, int size)
 {
 	lv_ft_info_t cache_info;
+	bool ret;
 	cache_info.font = info;
 	cache_info.name = TTF_FILE_PATH;
 	cache_info.style = FT_FONT_STYLE_NORMAL;
 	cache_info.weight = size;
 #if LV_USE_FT_CACHE_MANAGER
-	return lv_ft_font_init_cache(&cache_info);
+	ret = lv_ft_font_init_cache(&cache_info);
 #else
-	return lv_ft_font_init_nocache(info);
+	ret = lv_ft_font_init_nocache(info);
 #endif
+	if (ret == false)
+	{
+		LV_LOG_ERROR("load font failed:%s size:%d\n", TTF_FILE_PATH, size);
+	}
+	return ret;
 }
 
 void lv_ft_font_destroy(lv_font_t *font)
